@@ -91,11 +91,11 @@ int main() {
     AlGraph g;
     creatGraph(g);
     int n = 0;
-	for(         )//补充语句
-    	printf("点%c的度为：%d\n",g.vertices[n].data,num[n]);
+    for (n = 0; n < g.vexnum; n++) // 补充语句
+        printf("点%c的度为：%d\n",g.vertices[n].data,num[n]);
     printf("深度优先搜索：\n");
     dfs(g, 0);
-    for (        )//补充语句
+    for (int i = 0; i < g.vexnum; i++) // 补充语句
     {
         vi[i] = false;
     }
